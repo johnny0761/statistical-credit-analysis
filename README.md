@@ -77,4 +77,4 @@ Then run the notebook cells from top to bottom.
 
 ## Project Scope
 
-This is a beginner-friendly credit approval classification project. It is not an earnings call analysis, sentiment analysis, or production credit risk system.
+This is a beginner-friendly credit approval classification project.
