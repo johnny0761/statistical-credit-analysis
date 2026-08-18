@@ -14,7 +14,7 @@ The notebook:
 4. Splits the data into training and test sets.
 5. Trains a `DecisionTreeClassifier` from `scikit-learn`.
 6. Evaluates the model with a confusion matrix and classification report.
-7. Plots feature importance to show which inputs mattered most to the model.
+7. Plots permutation feature importance to show which inputs most affect model accuracy.
 
 ## Machine Learning Used
 
@@ -42,9 +42,11 @@ The model learns patterns from historical mock applications and predicts whether
 
 ![Credit application feature relationships](images/credit-feature-relationships.png)
 
-### Feature Importance
+### Permutation Feature Importance
 
 ![Decision tree feature importance](images/feature-importance.png)
+
+The importance chart uses permutation importance on the test set. In this mock dataset, age is still the strongest signal because the data is highly separable around an age threshold. This is a property of the demo data, not a recommendation for real credit decisioning.
 
 ## Getting Started
 
