@@ -34,6 +34,17 @@ The model learns patterns from historical mock applications and predicts whether
 | `CreditAnalysis.ipynb` | Main Jupyter notebook containing the analysis and machine learning workflow. |
 | `mock_credit.xlsx` | Mock credit application dataset used by the notebook. |
 | `requirements.txt` | Python packages needed to run the notebook. |
+| `images/` | Saved plot images used in this README. |
+
+## Example Output
+
+### Feature Relationships
+
+![Credit application feature relationships](images/credit-feature-relationships.png)
+
+### Feature Importance
+
+![Decision tree feature importance](images/feature-importance.png)
 
 ## Getting Started
 
